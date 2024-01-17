@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+    <style>
+       .buy{
+        position: relative;
+        display: inline-block;
+       }
+       .image{
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+    }
+    .promotion{
+        position: absolute;
+        top: 10px;
+        right: 0px;
+        background-color: black;
+        color: white;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+    .overlay{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(255,255,255,0.8);
+        height: 80px;
+        display: flex;
+
+    }
+    .button{
+        background-color: white;
+        border-color: black;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-style: solid;
+        border-width: 1px;
+        border-style: solid;
+    }
+    </style>
+</head>
+<body style="height: 3000px;">
+    <div class="buy">
+    <img class="image" src="shirt.jpg" >
+    <div class="promotion">20% OFF</div>
+    <div class="overlay">
+    <div class="button">Add to Cart</div>
+    </div>
+    </div>
+</body>
+</html>
